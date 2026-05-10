@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+.parent-box{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.heading {
+   text-align: center;
+   width: 100%;
+   font-size: xx-large;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-top: 30px;
+   margin-bottom: 50px;
+}
+
+#result{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    font-size: 25px;
+    color: white;
+}
+
+.cursor{
+display: inline-block;
+width: 1.5px;
+height: 30px;
+background-color: rgb(249, 169, 19);
+animation: blink 1s infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.container{
+    height: 480px;
+    width: 350px;
+    border-radius: 15px;
+     display: flex;
+     flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+}
+
+
+.op-btns,
+.mulitplication,
+.subtraction,
+.addition,
+.answer{
+    display: flex;
+    gap: 15px;
+   
+}
+
+
+.op-btns button,.mulitplication button,.subtraction button,.addition button,.answer button{
+height: 60px;
+width: 60px;
+border-radius: 50%;
+margin-bottom: 10px;
+background-color: rgb(70, 67, 67);
+color: white;
+border: none;
+cursor: pointer;
+    
+}
