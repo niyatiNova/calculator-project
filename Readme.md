@@ -1,17 +1,2 @@
-# Calculator Project
-
-A simple calculator built using HTML, CSS, and JavaScript.
-
-## Features
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Percentage
-- Negation
-- Blinking cursor UI
-
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
+# calculator-project
+An interactive calculator application developed using HTML,CSS AND JAVASCRIPT with basic arithmetic functionalities.
